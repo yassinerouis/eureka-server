@@ -4,7 +4,6 @@ From tomcat:8-jre8
 EXPOSE 8080
 
 MAINTAINER "yassine" 
-
 COPY ./webapp-2.2.2.RELEASE.war /usr/local/tomcat/webapps
 
 
